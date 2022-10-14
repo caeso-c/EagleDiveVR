@@ -1,0 +1,196 @@
+{
+    "name": "gameplay_noVR",
+    "maps": [
+        {
+            "name": "gameplayNoVR",
+            "id": "048ea922-d1c4-4712-afd4-92db2eafa8b8",
+            "actions": [
+                {
+                    "name": "Look",
+                    "type": "Value",
+                    "id": "f90522b5-2f91-4e5c-9b99-43a122e7cc6d",
+                    "expectedControlType": "Vector2",
+                    "processors": "ScaleVector2(y=2)",
+                    "interactions": ""
+                },
+                {
+                    "name": "TestWin",
+                    "type": "Button",
+                    "id": "97e8097b-2026-4fcb-9ec0-c563dd10bd55",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "TestLose",
+                    "type": "Button",
+                    "id": "0a8b1b36-d089-4658-a154-06514e034933",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "PlayFishing",
+                    "type": "Button",
+                    "id": "79e415bc-f40d-4ba0-8120-c264a2614036",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ResetToMenu",
+                    "type": "Button",
+                    "id": "f241b8aa-998f-45ab-858b-31a06de7f5aa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Pause",
+                    "type": "Button",
+                    "id": "a3585322-565a-4d75-b734-be7e2ac97512",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Click",
+                    "type": "Button",
+                    "id": "3d00872a-f23a-470e-9067-0fa306d2b72f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ChangeSpeed",
+                    "type": "Button",
+                    "id": "0d93b4d2-613a-4d43-9a72-f659eec8ebd2",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "ResetGame",
+                    "type": "Button",
+                    "id": "9d5c8158-9fab-457e-bec2-00b56020f268",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e3b2f80e-44e8-4f5c-b3f4-8fb06096e989",
+                    "path": "<Pointer>/delta",
+                    "interactions": "",
+                    "processors": "ScaleVector2(x=2,y=2)",
+                    "groups": "",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1be5d686-635a-45be-9e4a-e63277f0ecd0",
+                    "path": "<Keyboard>/#(1)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TestWin",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "51994504-d861-4e77-a312-9b0bf8671094",
+                    "path": "<Keyboard>/#(2)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TestLose",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0cd97fca-ef4e-47db-b710-fe82d57c5af5",
+                    "path": "<Keyboard>/#(P)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlayFishing",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0b9ae89c-43e7-40cc-b332-4f0e23fb702d",
+                    "path": "<Keyboard>/m",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ResetToMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "68164855-3ea9-4d90-9793-72dc518cee59",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pause",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "44ebd209-a006-4ba2-b05a-4d52080ce74f",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4d1260fc-b2a5-4737-92d1-8e4eaebe0247",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeSpeed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5895c56d-fa99-495a-bc84-229be393f6b4",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeSpeed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "15bc581d-659d-4f80-8d2d-e925eec391d1",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ResetGame",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
